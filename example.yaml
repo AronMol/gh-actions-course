@@ -1,0 +1,25 @@
+# Can be string, number, boolean
+name: My Workflow
+number: 1
+boolean: true
+
+# Object with nested properties
+config:
+  path: first-directory/file.yaml
+  environment: stageing
+
+# Array of colors
+colors:
+  - red
+  - green
+  - blue
+
+# Array of objects
+users:
+  - name: Alice
+    age: 30
+  - name: Bob
+    age: 25 
+
+
+
