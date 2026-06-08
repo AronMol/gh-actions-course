@@ -1,4 +1,4 @@
-name: "02 - Workflow Events"
+name: 02 - Workflow Events
 on: push
 
 jobs:
@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Show th etrigger"
-        run: echo "Event name: ${{ github.event_name }}"
+        run: echo "Event name ${{ github.event_name }}"
